@@ -11,6 +11,7 @@ int main() {
     printf("1. Pedra\n");
     printf("2. Papel\n");
     printf("3. Tesoura\n");
+    printf("4. Sair\n");
     printf("Escolha: ");
     scanf("%d", &escolhajogador);
 
@@ -29,7 +30,7 @@ int main() {
         break;
     
     default:
-        printf("Opção inválida\n");
+        printf("Saindo \n");
         break;
     }
 
@@ -54,6 +55,7 @@ int main() {
                     printf("###  Parabéns, você ganhou!  ###\n");
      } else {
         printf("###  Você perdeu!  ###\n");
-     }
+    }
+
     return 0;
 }

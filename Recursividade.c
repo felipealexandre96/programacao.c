@@ -2,9 +2,10 @@
 
 void recursivo (int numero){
     if (numero > 0){
-        printf("%d \n", numero);
+        printf("%d \n", numero); //com o printf aparecendo primeiro, vai em ordem decrescente
 
         recursivo(numero - 1);
+        //printf("%d\n", numero); //com o printf aparecendo depois, vai em ordem crescente
     }
 }
 
